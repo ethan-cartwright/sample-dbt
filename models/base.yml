@@ -15,7 +15,7 @@ sources:
         meta:
           owner: "@alice"
           model_maturity: in dev
-          some_other_property: test 1
+          links: ["https://www.imdb.com/name/nm0000129", "https://www.imdb.com/name/nm0000439"]
         columns:
           - name: actor_id
             description: "description for actor_id column from dbt"
@@ -38,6 +38,7 @@ sources:
           owner: "@bob"
           model_maturity: in prod
           some_other_property: test 2
+          links: ["https://www.imdb.com/name/nm0000129"]
       - name: customer
         description: "description for customer table from dbt"
       - name: payment_p2020_01
