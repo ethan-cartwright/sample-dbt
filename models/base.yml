@@ -14,6 +14,7 @@ sources:
         description: "description for actor table from dbt"
         meta:
           documentation_link: "https://www.imdb.com/name/nm0000129"
+          documentation_description: "tom cruise imdb"
           data_tier: Bronze # chosen from [Bronze,Gold,Silver]
         columns:
           - name: actor_id
@@ -37,7 +38,6 @@ sources:
           owner: "@bob"
           model_maturity: in prod
           some_other_property: test 2
-          documentation_link: "https://www.imdb.com/name/nm0000129"
       - name: customer
         description: "description for customer table from dbt"
       - name: payment_p2020_01
