@@ -13,8 +13,7 @@ sources:
       - name: actor
         description: "description for actor table from dbt"
         meta:
-          #documentation_link: "https://www.imdb.com/name/nm0000129"
-          owner: "ethan"
+          documentation_link: "https://www.imdb.com/name/nm0000129"
           data_tier: Bronze # chosen from [Bronze,Gold,Silver]
         columns:
           - name: actor_id
