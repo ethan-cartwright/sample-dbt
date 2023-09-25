@@ -13,7 +13,8 @@ sources:
       - name: actor
         description: "description for actor table from dbt"
         meta:
-          documentation_link: "https://www.imdb.com/name/nm0000130/"
+          owner: "groupemail@gmail.com"
+          business_owner: "#slack-channel-name"
           data_tier: Bronze # chosen from [Bronze,Gold,Silver]
         columns:
           - name: actor_id
