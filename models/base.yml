@@ -13,8 +13,7 @@ sources:
       - name: actor
         description: "description for actor table from dbt"
         meta:
-          owner: "@group-name"
-          business_owner: "@janet"
+          documentation_link: "https://www.imdb.com/name/nm0000130/"
           data_tier: Bronze # chosen from [Bronze,Gold,Silver]
         columns:
           - name: actor_id
